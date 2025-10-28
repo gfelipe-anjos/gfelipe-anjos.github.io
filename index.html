@@ -7,8 +7,37 @@
     <title>Portifólio - aula WEB 1</title>
     <link rel="stylesheet" href="../css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navba-brand fw-bold" href="#home">
+                Meu <span class="text-primary">Portifólio</span>
+            </a>
+
+            <button class="navbar-toggler" type="botton" data-bs-toggle="collapse" data-bs-target="#navbarNav" arial-cotrols="navbarNav" arial-expanded="false" arial-label="Toggle navigation">
+                <i class="bx bx-menu fs-1 text-light"></i>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#curriculo">Curriculo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#habilidades">Habilidades</a>
+                    </li>
+                </ul>
+            </div>
+            
+            
+        </div>
+
+    </nav>
     <section class="home" id="home">
         <div class="home-content">
             <h1>Gabriel Felipe</h1>
@@ -29,9 +58,13 @@
         <div class=" home-img">
             <img src="img/WhatsApp Image 2025-02-02 at 19.16.58.jpg" alt="foto">
         </div>
-        
+
+       
+    </section>
+    <section id="curriculo">
         <a href="GABRIEL FELIPE DOS ANJOS SILVA.pdf.pdf" class="btn" download="GABRIEL FELIPE DOS ANJOS SILVA.pdf.pdf"> Dowload curriculo</a>
-        
+    </section>      
+    <section id="habilidades">
         <div class="habilidades">
             <h3>Habilidades pessoais</h6>
             <div class="descricao">
@@ -54,5 +87,6 @@
             </div>    
         </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
