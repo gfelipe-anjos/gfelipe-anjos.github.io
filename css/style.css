@@ -83,6 +83,30 @@ body{
     box-shadow: 0 10px 25px black;
 }
 
+.habilidades{
+    text-align: center;
+    margin: 20px;
+}
+
+.descricao{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.descricao div{
+    margin-top: 5px;
+    padding:  20px 25px;
+    background-color: rgb(131, 157, 131);
+    border-radius: 20px;
+}
+
+.descricao div p{
+    margin-top: 4px;
+    text-align: left;
+    color: white;
+}
+
 @media (max-width: 900px) {
     .home{
         flex-direction: column-reverse;
