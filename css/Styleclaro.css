@@ -1,0 +1,58 @@
+.theme-toggle {
+    border-radius: 50% !important;
+    width:  45px;
+    height:  45px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, 0.3) !important;
+    transition: all 0.3s ease;
+}
+
+body.light-mode{
+    background-color: white !important;
+    color: #333 !important;
+}
+
+.btn.light-mode{
+    display: inline-block;
+    padding:  12px 25px;
+    background-color: rgb(3, 3, 46);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.btn.light-mode:hover{
+    background-color: rgb(24, 24, 51);
+    color: gray;
+}
+
+.descricao.light-mode div{
+    margin-top: 5px;
+    padding:  20px 25px;
+    background-color: rgb(6, 66, 6);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px black;
+}
+
+.descricao.light-mode div p{
+    margin-top: 4px;
+    text-align: left;
+    color: white;
+}
+
+.descricao.light-mode div h4{
+    color: rgb(0, 0, 0);
+}
+
+.sobre.light-mode div{
+    margin:1rem;
+    background-color: rgb(26, 54, 15);
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+}
+
